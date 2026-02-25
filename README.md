@@ -4,7 +4,7 @@
 [![WooCommerce](https://img.shields.io/badge/WooCommerce-4.0%2B-7f54b3?logo=woocommerce)](https://woocommerce.com)
 [![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4?logo=php)](https://php.net)
 [![License](https://img.shields.io/badge/License-GPLv2-green)](https://www.gnu.org/licenses/gpl-2.0.html)
-[![Version](https://img.shields.io/badge/Version-1.1.0-orange)](https://github.com/lucassebastianfiorio/pluspagos-woocommerce)
+[![Version](https://img.shields.io/badge/Version-1.1.0-orange)](https://github.com/lucassebastianfiorio/pluspagos-gateway)
 
 Plugin de WooCommerce que integra la pasarela de pago **PlusPagos** para aceptar pagos con tarjeta de crédito y débito en tiendas argentinas.
 
@@ -59,7 +59,7 @@ Cliente → "Realizar pedido" → WooCommerce crea la orden (on-hold)
 
 1. Clonar o descargar este repositorio:
    ```bash
-   git clone https://github.com/lucassebastianfiorio/pluspagos-woocommerce.git pluspagos-gateway
+   git clone https://github.com/lucassebastianfiorio/pluspagos-gateway.git pluspagos-gateway
    ```
 2. Colocar la carpeta `pluspagos-gateway` dentro de `/wp-content/plugins/`.
 3. Desde el panel de WordPress, ir a **Plugins → Plugins instalados** y activar **PlusPagos**.
